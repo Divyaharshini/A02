@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>fun</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="fun.css">
+  <script src="calc.js"></script>
+  <div class="topnav">
+    <a class="active" href="index.html">Divyaharshini</a>
+    <a href="index.html">Home</a>
+    <a class="active" href="fun.html">Game</a>
+    <a href="contact.html">Contact</a>
+  </div><br>
+</head>
+
+<body>
+  <header>
+    <h1>Save your time</h1>
+  </header>
+  <main>
+    <h2>Perform the below mathematic functions for a number:</h2><br>
+    <h3>Enter the number:</h3><br>
+    <input type="number" id="number" name="num" placeholder="Enter a valid number" value=""><br>
+    <br>
+    <h3>Select the function</h3><br>
+    
+      <select>
+        <option id="Palindrome" value="Palindrome">Palindrome</option>
+        <option id="Fibonacci" value="Fibonacci">Fibonacci</option>
+        <option id="Strongnumber" value="Strongnumber">Strong Number</option>
+      </select>
+
+    <br><button type="button" onclick="calculator()">Submit</button><br>
+    Result: <p id="result"></p>
+    <script src="./calc.js" defer></script>
+  </main>
+</body>
+</html>
