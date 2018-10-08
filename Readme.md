@@ -1,3 +1,3 @@
 About me -It's my introduction
-Tic-Tac-Toe - Game
+Calculations using few functions - Game
 Contact - Contact information
